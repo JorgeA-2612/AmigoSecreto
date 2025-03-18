@@ -23,7 +23,7 @@ function vaciarCaja(elemento)
 function sortearAmigo() 
 {
     let numeroDeAmigos = listaDeAmigos.length;
-    if (numeroDeAmigos <= 2) 
+    if (numeroDeAmigos <= 1) 
     {
         alert('Ingresa más amigos');
         return;
